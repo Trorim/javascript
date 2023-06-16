@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+.box {
+    width: 500px;
+    margin: 50px auto;
+    height: 300px;
+    border: 1px solid #000;
+    background-color: aqua;
+    text-align: center;
+    line-height: 300px;
+    font-size: 50px;
+    color: #fff;    
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin: 20px 30px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: #000;
+    color: #fff;
+    line-height: 30px;
+}
+
+.black {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    line-height: 150px;
+}
